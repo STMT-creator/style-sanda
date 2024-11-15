@@ -1,1 +1,44 @@
 @charset "utf-8";
+
+.page-center {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.brand {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.bi {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.navi {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.new {
+    width: 606px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-text {
+    text-align: center;
+}
+
+.delivery {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
