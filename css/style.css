@@ -3,7 +3,7 @@
 .page-center {
     width: 1000px;
     margin: 0 auto;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 .brand {
@@ -29,8 +29,9 @@
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 35px;
     text-transform: capitalize;
+    color: black;
 }
 
 .brand-text {
@@ -43,10 +44,12 @@ h1 {
     padding: 15px;
     text-transform: uppercase;
     font-weight: bold;
+    color: black;
 }
 
 #footer {
-    text-align: center
+    text-align: center;
+    color: black;
 }
 
 h2 {
@@ -65,4 +68,55 @@ h3 {
     background-color: black;
     color: white;
     padding: 30px 0;
+}
+
+
+/* Media Query : 미디어 쿼리 */
+@media screen and (max-width: 412px) {
+    body {
+        color: white;
+    }
+
+    img,
+    picture,
+    video {
+        max-width: 100%;
+    }
+
+    .navi {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        gap: 2px;
+        text-transform: uppercase;
+    }
+
+    .navi a {
+        background: #2d380e;
+        color: white;
+    }
+    .navi a:hover {
+        background: #bfff00;
+        color: white;
+    }
+    .page-center {
+        width: 100%;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .brand {
+        width: 100%;
+    }
+
+    .new {
+        width: 70%;
+    }
+    .brand-text {
+        width: 320px;
+    }
+    
 }
